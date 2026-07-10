@@ -2,7 +2,8 @@ import streamlit as st
 st.title("Proyecto módulo 1 Fundamentals")
 st.sidebar.title("Parámetros")
 
-st.image("DMC.png")
+st.image("Python.png")
+st.slidebar.image("DMC.png")
 
 valor_inicial = st.number_input("Ingrese el valor inicial", value=0)
 valor_final = st.number_input("Ingrese el valor final", value=1)
